@@ -63,13 +63,13 @@ arreglo_armas.push(new Arma(5, "MP5", "Subfusil", 130000, "Tan"));
 arreglo_armas.push(new Arma(6, "Uzi", "Subfusil", 110000, "gris oscuro"));
 
 let respuesta = true;
-while (respuesta != "salir" && respuesta ) {
+while (respuesta != "3" && respuesta ) {
 
     respuesta = mostrarMenu();
 }
 
 function mostrarMenu() {
-    let respuesta = prompt("Ingrese una opcion: \n 1. Mostrar todas las armas \n 2. Actualizar nuevo Precio \n 3. Escribe salir para cerrar el Menu");
+    let respuesta = prompt("Ingrese una opcion: \n 1. Mostrar todas las armas \n 2. Actualizar nuevo Precio \n 3. Cerrar el Menu");
     if (respuesta == "1") {
 
         alert("Las armas son: "+ mostrar_datos());
