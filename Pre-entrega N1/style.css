@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+@keyframes brillo-metal {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  font-family: fantasy;
+  font-weight: bold;
+  background: linear-gradient(270deg, lightgray, #888, black);
+  background-size: 800% 800%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: brillo-metal 9s ease infinite;
+}
+
+h2 {
+  text-align: center;
+  font-family: cursive;
+  font-size: xx-large;
+  font-weight: bold;
+  color: darkblue;
+  text-decoration: underline;
+}
+
